@@ -1,7 +1,7 @@
 # 
 
 ## Model
-www.msaez.io/#/213925382/storming/modelforops_prac
+www.msaez.io/#/courses/cna-full/2c7ffd60-3a9c-11f0-833f-b38345d437ae/deploy-my-app-2024
 
 ## Before Running Services
 ### Make sure there is a Kafka server running
@@ -20,7 +20,7 @@ cd /bin
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
 
-- oder
+- order
 - delivery
 - product
 
@@ -32,7 +32,7 @@ mvn spring-boot:run
 ```
 
 ## Test by API
-- oder
+- order
 ```
  http :8088/orders id="id"productName="productName"qty="qty"status="status"
 ```
